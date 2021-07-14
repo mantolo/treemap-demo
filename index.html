@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css"/>
+  </head>
+  <body>
+    <section style="display: flex; max-width: 1024px;margin:auto;">
+      <div style="min-width: 220px;">
+        <h3>Input</h3>
+        <div id="input-hints">...</div>
+        <textarea id="text-input" placeholder="paste JSON format..." style="min-width: 200px; min-height: 30vh;"></textarea>        
+        <br/>
+        <h3>Row</h3>
+        <div id="row-hints">...</div>
+        <input id="row-input" type="number" placeholder="3" value="3"></input>
+      </div>
+      <div id="output" style="min-width: 500px; width:60vw;">
+      </div>
+    </section>
+    <script type="module" src="./index.js" async defer></script>
+  </body>
+</html>

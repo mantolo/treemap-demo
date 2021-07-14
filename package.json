@@ -1,0 +1,23 @@
+{
+  "name": "treemap-demo",
+  "version": "0.0.1",
+  "description": "Web application that presents given data in treemap format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantolo/treemap-demo.git"
+  },
+  "author": "mantolo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mantolo/treemap-demo/issues"
+  },
+  "homepage": "https://github.com/mantolo/treemap-demo#readme",
+  "dependencies": {
+    "serve": "^12.0.0"
+  }
+}

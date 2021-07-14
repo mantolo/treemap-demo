@@ -1,0 +1,24 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+.invalid {
+  animation: anim-invalid 1.2s 1;
+  animation-fill-mode: backwards;
+}
+
+.valid {
+  animation: anim-valid 1.2s 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anim-invalid {
+  from { background-color: red; }
+  to { background-color: transparent; }
+}
+
+@keyframes anim-valid {
+  from {background-color: green;}
+  to {background-color: transparent;}
+}
